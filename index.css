@@ -1,0 +1,128 @@
+/* Autor: Carlos Eduardo Vijil Maldonado
+Fecha: 22/04/2024 */
+
+header{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+/* cuerpo */
+
+body{
+    background-color: lightcyan;
+}
+
+.espacio{
+    height: 60px;
+}
+
+.bajo-espacio{
+    height: 40px;
+}
+
+.min-espacio{
+    height: 10px;
+}
+
+/* lista */
+
+ul{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.item-list{
+    width: calc(22% + 79px);
+    margin: 0 calc(40%);
+    display: block;
+}
+
+.crypt{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+li button{
+    width: 100px;
+    height: 60px;
+    color: blue;
+    border-color: lightblue;
+    background-color: white;
+    font-weight: bold;
+}
+
+#en-crypt{
+    background-color: blue;
+    color: white;
+}
+
+/* fin de lista */
+
+/* proceso */
+
+.proceso-principal{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.proceso{
+    width: 35%;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+}
+textarea{
+    display: block;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subir{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: lightslategray;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.Copiar{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: lightslategray;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:680px) {
+    textarea{
+        height: 100px;
+    }
+
+    li button{
+        margin-bottom: 10px;
+    }
+  }

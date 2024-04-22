@@ -1,0 +1,44 @@
+<!-- Autor: Carlos Eduardo Vijil Maldonado
+Fecha: 22/04/2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Encriptador</title>
+</head>
+<header>
+    <h1>Desafio: Encriptador de Texto</h1>
+</header>
+<body>
+    <div class="espacio"></div>
+        
+        <ul>
+            <h2>Elija si quiere encriptar o desencriptar:</h2>
+            <div class="espacio"></div>
+            <div class="item-list">
+                <li class="crypt"><button id="en-crypt" onclick="encrypt();">Encriptar</button></li>
+                <li class="crypt"><button id="de-crypt" onclick="decrypt();">Desencriptar</button></li>
+            </div>
+        </ul>
+        <div class="bajo-espacio"></div>
+        <div class="proceso-principal">
+            <div class="proceso">
+                <label id="lbl-ingresar" for="ingresar">Encriptador:</label>
+                <textarea placeholder="Ingrese texto aqui" id="ingresar" cols="70" rows="3"></textarea>
+                <div class="min-espacio"></div>
+                <button id="subir" class="subir" onclick="proceso();">Encriptar</button>
+                <div class="bajo-espacio"></div>
+                <label for="ingresar">Resultado:</label>
+                <textarea placeholder="Su texto sale aqui" id="resultado" cols="70" rows="3" readonly></textarea>
+                <div class="min-espacio"></div>
+                <button class="Copiar" onclick="copytoclipboard();">Copiar Resultado</button>
+            </div>
+        </div>
+        <div class="bajo-espacio"></div>
+</body>
+<script src="index.js"></script>
+</html>
